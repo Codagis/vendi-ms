@@ -62,3 +62,4 @@ UPDATE perfis SET permissoes = (
 -- Verificar se as permissões foram inseridas corretamente
 SELECT 'Permissões inseridas:' as status, COUNT(*) as total FROM permissoes WHERE deleted = false;
 SELECT 'Perfis atualizados:' as status, COUNT(*) as total FROM perfis WHERE deleted = false;
+

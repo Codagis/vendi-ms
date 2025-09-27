@@ -17,3 +17,4 @@ public @interface RequirePermission {
     String[] value() default {};
     boolean requireAll() default false;
 }
+

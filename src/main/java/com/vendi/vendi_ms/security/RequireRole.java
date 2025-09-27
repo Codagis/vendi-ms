@@ -17,3 +17,4 @@ public @interface RequireRole {
     String[] value() default {};
     boolean requireAll() default false;
 }
+

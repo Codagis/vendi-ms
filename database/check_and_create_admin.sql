@@ -30,3 +30,4 @@ UNION ALL
 SELECT 'empresas' as tabela, COUNT(*) as total FROM empresas
 UNION ALL
 SELECT 'lojas' as tabela, COUNT(*) as total FROM lojas;
+

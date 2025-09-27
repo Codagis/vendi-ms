@@ -33,3 +33,4 @@ public class UserTokenData {
     private Long lojaId;
     private String lojaNome;
 }
+

@@ -16,3 +16,4 @@ public class ConflictException extends RuntimeException {
         super(message, cause);
     }
 }
+

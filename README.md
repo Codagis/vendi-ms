@@ -158,3 +158,4 @@ server:
 1. Verifique se o token está sendo enviado no header `Authorization: Bearer <token>`
 2. Confirme se o token não expirou (válido por 8 horas)
 3. Verifique a configuração do JWT no `application-local.yml`
+

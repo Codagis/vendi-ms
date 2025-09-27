@@ -34,3 +34,4 @@ public class ErrorResponseDTO {
     
     private Map<String, String> details;
 }
+

@@ -27,3 +27,4 @@ GRANT ALL PRIVILEGES ON SCHEMA public TO postgres;
 
 -- Verificar se o banco foi criado
 SELECT datname FROM pg_database WHERE datname = 'vendi-dev';
+

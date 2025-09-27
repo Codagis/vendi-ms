@@ -14,3 +14,4 @@ INSERT INTO usuarios (
 
 -- Verificar se foi inserido
 SELECT * FROM usuarios WHERE username = 'admin';
+

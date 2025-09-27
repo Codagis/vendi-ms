@@ -16,3 +16,4 @@ public class AccountInactiveException extends RuntimeException {
         super(message, cause);
     }
 }
+

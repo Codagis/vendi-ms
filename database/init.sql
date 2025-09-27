@@ -24,3 +24,4 @@
 -- SELECT * FROM permissoes;
 -- SELECT * FROM empresas;
 -- SELECT * FROM lojas;
+
