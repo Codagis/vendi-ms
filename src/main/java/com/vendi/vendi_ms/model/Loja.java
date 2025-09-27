@@ -29,6 +29,7 @@ import java.util.Set;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 @ToString(callSuper = true, exclude = {"empresa", "usuarios"})
 public class Loja extends BaseEntity {
 

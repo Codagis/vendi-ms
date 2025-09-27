@@ -4,12 +4,6 @@ spring:
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
     driver-class-name: org.postgresql.Driver
-    hikari:
-      maximum-pool-size: 20
-      minimum-idle: 5
-      connection-timeout: 30000
-      idle-timeout: 600000
-      max-lifetime: 1800000
   
   jpa:
     hibernate:
@@ -19,20 +13,9 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
         format_sql: false
-        jdbc:
-          batch_size: 20
-        order_inserts: true
-        order_updates: true
-  
-  security:
-    user:
-      name: ${ADMIN_USERNAME:admin}
-      password: ${ADMIN_PASSWORD:admin123}
 
 server:
   port: ${PORT:8080}
-  servlet:
-    context-path: /vendi-api
 
 google:
   cloud:
@@ -46,21 +29,16 @@ jwt:
 
 logging:
   level:
-    org.hibernate.SQL: WARN
-    org.hibernate.type.descriptor.sql.BasicBinder: WARN
+    org.springframework: INFO
+    org.hibernate: INFO
     com.vendi: INFO
     root: WARN
-  pattern:
-    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
-    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
-  file:
-    name: logs/vendi-ms.log
 
 management:
   endpoints:
     web:
       exposure:
-        include: health,info,metrics
+        include: "health,info"
   endpoint:
     health:
       show-details: when-authorized

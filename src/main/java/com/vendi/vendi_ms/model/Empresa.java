@@ -98,6 +98,10 @@ public class Empresa extends BaseEntity {
     @Column(name = "ativo", nullable = false)
     private Boolean ativo = true;
 
+    @Size(max = 1000, message = "URL da logo deve ter no máximo 1000 caracteres")
+    @Column(name = "url_logo", length = 1000)
+    private String urlLogo;
+
     @OneToMany(mappedBy = "empresa", fetch = FetchType.LAZY)
     private Set<Usuario> usuarios;
 

@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/vendi-dev
-    username: postgres
-    password: postgres
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/vendi-dev}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:postgres}
     driver-class-name: org.postgresql.Driver
   
   jpa:
@@ -21,6 +21,17 @@ spring:
 
 server:
   port: 8080
+
+# JWT para Desenvolvimento
+jwt:
+  secret: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+  expiration: 28800000
+
+google:
+  cloud:
+    storage:
+      bucket-name: ${GOOGLE_CLOUD_BUCKET_NAME:vendi-pdv}
+      credentials: ${GOOGLE_CLOUD_CREDENTIALS:}
 
 logging:
   level:

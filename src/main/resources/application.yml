@@ -2,12 +2,22 @@ spring:
   application:
     name: vendi-ms
   profiles:
-    active: dev 
+    active: dev
   jpa:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
     open-in-view: false
+
+google:
+  cloud:
+    storage:
+      bucket-name: ${GOOGLE_CLOUD_BUCKET_NAME:vendi-pdv}
+      credentials: ${GOOGLE_CLOUD_CREDENTIALS:}
+
+jwt:
+  secret: ${JWT_SECRET:404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970}
+  expiration: 86400000
 
 logging:
   pattern:
@@ -15,6 +25,7 @@ logging:
   level:
     org.springframework: INFO
     org.hibernate: INFO
+    com.vendi.vendi_ms.service.GoogleCloudStorageService: DEBUG
 
 management:
   info:

@@ -1,33 +1,39 @@
-HELP.md
-target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Google Cloud Credentials - NUNCA commitar
+credentials/
+*.json
+service-account*.json
+vendi-*.json
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Arquivos de configuração sensíveis
+application-secret.yml
+.env
+.env.local
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+# Logs
+*.log
+logs/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Arquivos temporários
+*.tmp
+*.temp
 
-### VS Code ###
+# IDE
 .vscode/
+.idea/
+*.iml
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Node modules (se houver)
+node_modules/
+
+# Build
+target/
+dist/
+build/
+
+# Arquivos de backup
+*.bak
+*.backup
