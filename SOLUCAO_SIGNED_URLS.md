@@ -117,3 +117,4 @@ gsutil uniformbucketlevelaccess get gs://vendi-pdv
 ---
 
 **🎯 Solução implementada! Agora o upload deve funcionar com Signed URLs seguras!**
+

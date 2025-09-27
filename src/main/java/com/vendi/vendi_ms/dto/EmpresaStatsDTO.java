@@ -20,3 +20,4 @@ public class EmpresaStatsDTO {
         this.totalUsuarios = totalUsuarios;
     }
 }
+

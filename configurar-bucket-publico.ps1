@@ -75,3 +75,4 @@ Write-Host "`nRemover permissões públicas (se necessário):" -ForegroundColor 
 Write-Host "gsutil iam ch -d allUsers:objectViewer gs://vendi-pdv" -ForegroundColor Green
 
 Read-Host "`nPressione Enter para sair"
+

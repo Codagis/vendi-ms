@@ -81,3 +81,4 @@ Write-Host "2. Verifique se o bucket 'vendi-pdv' existe" -ForegroundColor White
 Write-Host "3. Verifique as permissões da Service Account" -ForegroundColor White
 
 Read-Host "`nPressione Enter para sair"
+

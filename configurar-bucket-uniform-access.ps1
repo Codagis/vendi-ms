@@ -83,3 +83,4 @@ Write-Host "3. Teste o upload de logo" -ForegroundColor White
 Write-Host "4. Verifique se URL funciona no navegador" -ForegroundColor White
 
 Read-Host "`nPressione Enter para sair"
+
