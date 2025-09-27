@@ -22,18 +22,14 @@ spring:
       name: admin
       password: admin123
 
-# Configurações JWT
 jwt:
   secret: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
-  expiration: 28800000 # 8 horas em millisegundos
-
-# Configurações do servidor
+  expiration: 28800000
 server:
   port: 8080
   servlet:
     context-path: /
 
-# Logging
 logging:
   level:
     com.vendi.vendi_ms: DEBUG
