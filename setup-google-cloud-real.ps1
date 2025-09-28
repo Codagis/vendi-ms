@@ -82,3 +82,4 @@ Write-Host "3. Verifique as permissões da Service Account" -ForegroundColor Whi
 
 Read-Host "`nPressione Enter para sair"
 
+

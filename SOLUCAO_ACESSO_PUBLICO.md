@@ -120,3 +120,4 @@ gsutil iam ch -d allUsers:objectViewer gs://vendi-pdv
 
 **🎯 Após configurar as permissões, o upload de logo deve funcionar perfeitamente!**
 
+

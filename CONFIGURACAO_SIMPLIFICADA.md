@@ -87,3 +87,4 @@ mvn spring-boot:run -Dspring.profiles.active=prod
 
 **🚀 Configuração simplificada e funcionando!**
 
+

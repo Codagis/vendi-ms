@@ -39,3 +39,4 @@ public class LojaDTO {
     private LocalDateTime updatedAt;
 }
 
+

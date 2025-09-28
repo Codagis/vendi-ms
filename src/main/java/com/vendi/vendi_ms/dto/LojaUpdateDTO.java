@@ -57,3 +57,4 @@ public class LojaUpdateDTO {
     private Boolean ativo;
 }
 
+

@@ -99,3 +99,4 @@ gsutil iam ch -d allUsers:objectViewer gs://vendi-pdv
 
 **🎯 Execute o comando IAM e teste o upload!**
 
+

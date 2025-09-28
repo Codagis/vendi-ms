@@ -151,3 +151,4 @@ https://storage.googleapis.com/vendi-pdv/logos/empresa_exemplo/20241227_143022_a
 
 **🚀 Google Cloud Storage configurado e funcionando!**
 
+

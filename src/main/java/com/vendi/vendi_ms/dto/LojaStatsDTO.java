@@ -24,3 +24,4 @@ public class LojaStatsDTO {
     private Long totalEmpresas;
 }
 
+

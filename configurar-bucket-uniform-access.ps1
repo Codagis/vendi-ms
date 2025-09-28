@@ -84,3 +84,4 @@ Write-Host "4. Verifique se URL funciona no navegador" -ForegroundColor White
 
 Read-Host "`nPressione Enter para sair"
 
+

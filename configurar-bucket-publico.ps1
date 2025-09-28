@@ -76,3 +76,4 @@ Write-Host "gsutil iam ch -d allUsers:objectViewer gs://vendi-pdv" -ForegroundCo
 
 Read-Host "`nPressione Enter para sair"
 
+

@@ -64,3 +64,4 @@ Write-Host "• Funciona em todos os ambientes" -ForegroundColor White
 
 Read-Host "`nPressione Enter para sair"
 
+
